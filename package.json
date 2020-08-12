@@ -1,0 +1,21 @@
+{
+  "name": "codingtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "expect": "^26.0.1",
+    "jest": "^26.0.1"
+  },
+  "dependencies": {
+    "random-seed": "^0.3.0",
+    "rxjs": "^6.5.5"
+  }
+}

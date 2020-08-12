@@ -1,0 +1,55 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": false
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es2017": true
+  },
+  "rules": {
+    "arrow-spacing": "error",
+    "block-scoped-var": "error",
+    "block-spacing": "error",
+    "brace-style": ["error", "stroustrup", {}],
+    "camelcase": "error",
+    "comma-dangle": ["error", "never"],
+    "comma-spacing": ["error", { "before": false, "after": true }],
+    "comma-style": [1, "last"],
+    "consistent-this": [1, "_this"],
+    "curly": [1, "multi"],
+    "eol-last": 1,
+    "eqeqeq": 1,
+    "func-names": 1,
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "lines-around-comment": ["error", { "beforeBlockComment": true, "allowArrayStart": true }],
+    "max-len": [1, 180, 2], // 2 spaces per tab, max 80 chars per line
+    "new-cap": 1,
+    "newline-before-return": "error",
+    "no-array-constructor": 1,
+    "no-inner-declarations": [1, "both"],
+    "no-mixed-spaces-and-tabs": 1,
+    "no-multi-spaces": 2,
+    "no-new-object": 1,
+    "no-shadow-restricted-names": 1,
+    "object-curly-spacing": ["error", "always"],
+    "padded-blocks": ["error", { "blocks": "never", "switches": "always" }],
+    "prefer-const": "error",
+    "prefer-template": "error",
+    "one-var": 0,
+    "quote-props": ["error", "always"],
+    "quotes": [1, "single"],
+    "radix": 1,
+    "semi": [1, "always"],
+    "space-before-blocks": [1, "always"],
+    "space-infix-ops": 1,
+    "vars-on-top": 1,
+    "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 1 }],
+    "spaced-comment": ["error", "always", { "markers": ["/"] }]
+  }
+
+}
